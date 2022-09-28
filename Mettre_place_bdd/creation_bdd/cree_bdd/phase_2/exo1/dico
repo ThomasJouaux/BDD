@@ -1,0 +1,20 @@
+Personne : 
+per_num  Auto_incr PRIMARY_KEY
+per_nom  Varchar(30)
+per_adresse Varchar(50)
+per_vill    Varchar(30)
+
+
+Appartient 
+Foreign key per_num
+foreign key gro_num
+
+
+grp 
+gro_num Auto_incr PRIMARY KEY 
+gro_libelle Varchar(50)
+
+
+
+
+

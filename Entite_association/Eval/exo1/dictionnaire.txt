@@ -1,0 +1,31 @@
+Abonnée : 
+nom  // a trier alphabetiquement 
+prenom
+adresse
+numero telephone
+date du jour de l'abonnement 
+date du jour de l'emprunt 
+date relance 
+
+Livres : 
+titre 
+auteur 
+editeur 
+clé primaire auto incremente (Id_livre)
+
+Théme livre en fonction des couleurs 
+
+Emprunt : 
+coordonée du livre 
+date emprunt 
+trier dans l'odre des numero de livre 
+
+Retour : 
+date du retour fiche abonnée 
+date du retour fiche livre 
+
+info livre :
+théme 
+auteur 
+editeur 
+date edition 
