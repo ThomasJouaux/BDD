@@ -24,3 +24,5 @@ SELECT nom , salaire , titre FROM employe WHERE (titre = 'Représentant') OR (ti
 SELECT nom , titre , nodep , salaire FROM employe WHERE (nodep = 34) AND (titre = 'Représentant') OR (titre = 'Secrétaire');
 
 SELECT nom , salaire FROM employe WHERE salaire BETWEEN 20000 AND 30000;
+
+SELECT nom , salaire FROM employe LIMIT 5;
