@@ -79,7 +79,10 @@ WHERE cli_nom ="Squire";
 
 SELECT sta_nom , AVG(datediff(res_date_fin, res_date_debut))
 FROM station
-JOIN hotel ON station.sta_id = hotel.hot_id
-JOIN chambre ON hotel.hot_id = chambre.cha_id
-JOIN reservation ON chambre.cha_id = reservation.res_id
+JOIN hotel ON station.sta_id = hotel.hot_sta_id
+JOIN chambre ON hotel.hot_id = chambre.cha_hot_id
+JOIN reservation ON chambre.cha_id = reservation.res_cha_id
 GROUP BY sta_nom;
+
+
+select * from reservation;
